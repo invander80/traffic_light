@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="ampel">
+    <file>ampelphasen-zeiten-programmieren-arduino.png</file>
+  </qresource>
+</RCC>
