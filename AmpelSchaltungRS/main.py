@@ -1,4 +1,4 @@
-# // PYQT% IMPORTS
+# // PYQT5 IMPORTS
 from PyQt5.QtCore import pyqtSlot, QIODevice
 from PyQt5.QtGui import QColor
 from PyQt5.QtWidgets import QApplication, QWidget, QPlainTextEdit, QGraphicsDropShadowEffect
@@ -78,7 +78,7 @@ class AmpelSchaltungRS(QWidget,Ui_Form):
             self.s_taster.setChecked(False)
 
     def ampel_taster_state(self, val):
-        if "Ampel-Taster betätig" in val:
+        if "Ampel-Taster betätigt" in val:
             self.ampel_taster.setChecked(True)
         if "9" in val:
             self.ampel_taster.setChecked(False)
